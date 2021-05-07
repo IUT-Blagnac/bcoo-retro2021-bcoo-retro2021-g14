@@ -1,0 +1,10 @@
+= BC00 2021 - Rétro-conception Discord
+
+== Membre du groupe
+
+- Dupont (2A)
+- Durand (3B)
+- ...
+
+== Outils utilisés/requis
+
