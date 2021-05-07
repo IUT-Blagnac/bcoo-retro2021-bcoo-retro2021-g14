@@ -3,8 +3,8 @@
 == Membre du groupe
 
 - Mathieu Nicolas (1B)
-- Amouroux Benoit
-- Flinois Hugo
+- Amouroux Benoit (1B)
+- Flinois Hugo (1B)
 
 == Outils utilisés/requis
 - github
