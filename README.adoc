@@ -2,9 +2,11 @@
 
 == Membre du groupe
 
-- Dupont (2A)
-- Durand (3B)
-- ...
+- Mathieu Nicolas (1B)
+- Amouroux Benoit
+- Flinois Hugo
 
 == Outils utilisés/requis
-
+- github
+-git
+-SNI
