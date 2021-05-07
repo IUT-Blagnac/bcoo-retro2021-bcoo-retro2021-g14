@@ -1,4 +1,4 @@
-= BC00 2021 - Rétro-conception Discord
+= BCOO 2021 - Rétro-conception Discord
 
 == Membre du groupe
 
@@ -7,6 +7,6 @@
 - Flinois Hugo (1B)
 
 == Outils utilisés/requis
-- github
--git
+-Github
+-Git
 -SNI
