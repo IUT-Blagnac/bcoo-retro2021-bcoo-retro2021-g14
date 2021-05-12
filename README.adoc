@@ -10,4 +10,4 @@
 -Github
 -Git
 -SNI
--visual studio code (Pour les diagrammes UML)
+-Visual Studio Code (Pour les diagrammes UML)
