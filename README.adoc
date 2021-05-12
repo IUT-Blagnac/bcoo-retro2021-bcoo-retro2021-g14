@@ -2,9 +2,9 @@
 
 == Membre du groupe
 
-- Mathieu Nicolas (1B)
-- Amouroux Benoit (1B)
-- Flinois Hugo (1B)
+- MATHIEU Nicolas (1B)
+- AMOUROUX Benoit (1B)
+- FLINOIS Hugo (1B)
 
 == Outils utilisés/requis
 -Github
