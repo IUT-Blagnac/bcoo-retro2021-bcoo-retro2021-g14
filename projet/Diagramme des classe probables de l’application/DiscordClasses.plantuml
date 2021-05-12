@@ -15,6 +15,7 @@ class Serveur
 {
    idServeur
    nomServeur
+   creer()
 
 
    
@@ -27,6 +28,8 @@ class Role
     nomRole
     permissions
     couleur
+    creer()
+    supprimer()
 
 
 }
@@ -36,6 +39,8 @@ class Emoji
     idEmoji
     nomEmoji
     imageEmoji
+    creer()
+    supprimer()
     
 
 
@@ -45,6 +50,9 @@ class Salon
 {
     idSalon
     nomSalon
+    creer()
+    supprimer()
+    
 
 }
 
@@ -79,6 +87,9 @@ class Groupe
 idGroupe
 nomGroupe
 imageGroupe
+inviter()
+éjecter()
+créerLien()
 
 }
 
@@ -113,6 +124,8 @@ class Compte
     photoProfil
     messageStatut
     statutConnexion
+    créer()
+    supprimer()
 }
 
 
