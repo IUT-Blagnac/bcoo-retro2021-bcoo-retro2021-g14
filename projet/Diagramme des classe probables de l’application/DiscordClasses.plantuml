@@ -52,7 +52,7 @@ class Salon
     nomSalon
     creer()
     supprimer()
-    
+
 
 }
 
@@ -63,7 +63,7 @@ class Salon
 '--------------------------
 'Contact 
 '--------------------------
-<> diamondContact
+
 
 class ListeContact
 {
@@ -71,9 +71,9 @@ class ListeContact
     nombreContact
 }
 
-ListeContact . diamondContact
-diamondContact  -- "1" Compte
-diamondContact  -- "1" Compte
+ListeContact "1" -- "1" Compte
+
+
 '------------------------------
 
 
@@ -93,7 +93,7 @@ créerLien()
 
 }
 
-<> diamondAppel
+
 
 class Appel 
 {
@@ -105,9 +105,7 @@ class Appel
     raccrocher()
 }
 
-diamondAppel  -- "1" Compte
-diamondAppel  -- "1" Compte
-Appel  --  diamondAppel
+Compte "2..*" -- "1..*" Appel
 
 '---------------------
 
