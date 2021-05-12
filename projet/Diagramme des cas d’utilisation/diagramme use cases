@@ -1,0 +1,72 @@
+@startuml
+
+left to right direction
+
+:Utilisateur:
+:Serveur:
+
+usecase se_connecter
+usecase inscription as "s'inscrire"
+usecase formulaire as "remplir formulaire"
+
+usecase appeler
+usecase partecran as "partager son écran"
+usecase camera as "caméra"
+usecase coupmic as "couper micro"
+usecase coupcasque as "couper casque"
+
+usecase ajouter_amis
+
+usecase envoyer_message
+usecase envpho as "envoyer photo"
+usecase envdoc as "envoyer document"
+usecase envemoji as "envoyer émojie"
+usecase envgif as "envoyer gif"
+
+usecase prendre_abonnement
+usecase offrir as "offrir abonnement"
+usecase payer as "payer abonnement"
+
+usecase créer_serveur
+usecase formulserv as "Remplir formulaire serveur"
+usecase amisserv as "inviter amis"
+usecase créer_salon
+usecase créer_salon_vocale
+usecase créer_salon_texte
+
+Utilisateur --> se_connecter
+inscription --> se_connecter
+formulaire --> inscription
+
+Utilisateur --> appeler
+appeler --> coupmic
+appeler --> coupcasque
+appeler --> partecran
+appeler --> camera
+
+Utilisateur --> ajouter_amis
+
+Utilisateur --> envoyer_message
+envoyer_message --> envdoc
+envoyer_message --> envemoji
+envoyer_message --> envgif
+envoyer_message --> envpho
+
+Utilisateur --> prendre_abonnement
+prendre_abonnement --> offrir
+prendre_abonnement --> payer
+
+Utilisateur --> créer_serveur
+créer_serveur --> amisserv
+créer_serveur --> formulserv
+créer_serveur --> créer_salon
+créer_salon --> créer_salon_vocale
+créer_salon --> créer_salon_texte
+
+Serveur <-- créer_serveur
+Serveur <-- prendre_abonnement
+Serveur <-- envoyer_message
+Serveur <-- ajouter_amis
+Serveur <-- appeler
+Serveur <-- se_connecter
+@enduml

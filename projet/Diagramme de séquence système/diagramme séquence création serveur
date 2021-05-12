@@ -1,0 +1,9 @@
+@startuml
+group création_serveur
+    utilisateur -> serveur : demande création serveur
+    activate serveur
+    serveur --> utilisateur : remplir le formulaire
+    serveur --> utilisateur : serveur créer
+    deactivate serveur
+
+@enduml
