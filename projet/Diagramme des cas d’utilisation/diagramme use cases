@@ -32,7 +32,6 @@ usecase créer_salon
 usecase créer_salon_vocale
 usecase créer_salon_texte
 
-
 Utilisateur --> se_connecter
 inscription --> se_connecter
 formulaire --> inscription
