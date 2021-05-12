@@ -1,0 +1,70 @@
+@startuml ClassesProbables
+'--------------------------------
+' Parametres pour le dessin
+'--------------------------------
+hide circle
+hide empty members
+hide empty methods
+'--------------------------------
+
+class Serveur
+{
+   idServeur
+   nomServeur
+
+
+   
+
+}
+
+class Role
+{
+    idRole
+    nomRole
+    permissions
+    couleur
+
+
+}
+
+class Emoji
+{
+    idEmoji
+    nomEmoji
+    imageEmoji
+    
+
+
+}
+
+class Compte
+{
+    idCompte
+    pseudo
+    photoProfil
+    messageStatut
+    statutConnexion
+}
+
+class Salon
+{
+    idSalon
+    nomSalon
+
+}
+
+ListeContact
+{
+    
+}
+
+
+
+Serveur "1" -- "*"  Role : appartient
+Serveur "1" -- "*..50"  Emoji 
+Serveur "1" -- "*..50"  Salon 
+Serveur "*..100" -- "*"  Compte 
+Compte "*" -- "*"  Compte : est en contact avec
+ 
+
+@enduml
