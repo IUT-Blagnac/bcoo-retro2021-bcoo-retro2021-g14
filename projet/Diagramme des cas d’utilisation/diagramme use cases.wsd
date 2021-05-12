@@ -1,38 +1,38 @@
 @startuml
-
 left to right direction
 
-:Utilisateur:
+:Utilisateur: #aliceblue;line:blue;text:blue
 :Serveur:
 
-usecase se_connecter
-usecase inscription as "s'inscrire"
-usecase formulaire as "remplir formulaire"
 
-usecase appeler
-usecase partecran as "partager son écran"
-usecase camera as "caméra"
-usecase coupmic as "couper micro"
-usecase coupcasque as "couper casque"
+usecase se_connecter as "Se connecter"
+usecase inscription as "S'inscrire"
+usecase formulaire as "Remplir formulaire"
+
+usecase appeler as "Appeler"
+usecase partecran as "Partager son écran"
+usecase camera as "Caméra"
+usecase coupmic as "Couper micro"
+usecase coupcasque as "Couper casque"
 
 usecase ajouter_amis
 
-usecase envoyer_message
-usecase envpho as "envoyer photo"
-usecase envdoc as "envoyer document"
-usecase envemoji as "envoyer émojie"
-usecase envgif as "envoyer gif"
+usecase envoyer_message as "Envoyer un message"
+usecase envpho as "Envoyer photo"
+usecase envdoc as "Envoyer document"
+usecase envemoji as "Envoyer émojie"
+usecase envgif as "Envoyer gif"
 
-usecase prendre_abonnement
-usecase offrir as "offrir abonnement"
-usecase payer as "payer abonnement"
+usecase prendre_abonnement as "Prendre un abonnement"
+usecase offrir as "Offrir abonnement"
+usecase payer as "Payer abonnement"
 
-usecase créer_serveur
+usecase créer_serveur as "Créer un serveur"
 usecase formulserv as "Remplir formulaire serveur"
-usecase amisserv as "inviter amis"
-usecase créer_salon
-usecase créer_salon_vocale
-usecase créer_salon_texte
+usecase amisserv as "Inviter amis"
+usecase créer_salon as "Créer un salon"
+usecase créer_salon_vocale as "Créer un salon vocale"
+usecase créer_salon_texte as "Créer un salon textuel"
 
 Utilisateur --> se_connecter
 inscription --> se_connecter
