@@ -96,7 +96,7 @@ class Appel
 
 diamondAppel  -- "1" Compte
 diamondAppel  -- "1" Compte
-Appel  -- "1" diamondAppel
+Appel  --  diamondAppel
 
 '---------------------
 
