@@ -7,6 +7,10 @@ hide empty members
 hide empty methods
 '--------------------------------
 
+
+'-------------------------
+'Partie serveur 
+'---------------------
 class Serveur
 {
    idServeur
@@ -37,6 +41,39 @@ class Emoji
 
 }
 
+class Salon
+{
+    idSalon
+    nomSalon
+
+}
+
+'--------------------------
+
+
+
+'--------------------------
+'Contact 
+'------------------------
+<> diamondContact
+
+class ListeContact
+{
+    listeContact
+    nombreContact
+}
+
+ListeContact . diamondContact
+diamondContact  -- "1" Compte
+diamondContact  -- "1" Compte
+'------------------------------
+
+
+
+'------------------------
+'Classes diverses
+'-----------------------
+
 class Compte
 {
     idCompte
@@ -46,25 +83,37 @@ class Compte
     statutConnexion
 }
 
-class Salon
+class Groupe
 {
-    idSalon
-    nomSalon
+idGroupe
+nomGroupe
+imageGroupe
 
-}
-
-ListeContact
-{
-    
 }
 
 
 
-Serveur "1" -- "*"  Role : appartient
+'----------------------------
+
+
+
+
+'----------------------------
+'Les lisisons
+'------------------------------
+Serveur "1" -- "*"  Role 
 Serveur "1" -- "*..50"  Emoji 
 Serveur "1" -- "*..50"  Salon 
-Serveur "*..100" -- "*"  Compte 
-Compte "*" -- "*"  Compte : est en contact avec
+Serveur "*..100" -- "1..*"  Compte : est membre
+Serveur "1" -- "*"  Compte : est propriétaire
+Groupe "*" -- "1..10" Compte : est membre
+Groupe "*" -- "1" Compte : est propriétaire
+
+
+
+
+
+'---------------------------------
  
 
 @enduml
