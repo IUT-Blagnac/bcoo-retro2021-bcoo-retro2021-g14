@@ -35,9 +35,9 @@ Dans cette partie, nous avons créer un diagramme qui va référencer toute les 
 
 * créer un serveur
 * créer_serveur
-* prendre abonnement
-* envoyer message
-* ajouter amis
+* prendre un abonnement
+* envoyer des messages
+* ajouter des amis
 * appeler
 * se connecter
 
