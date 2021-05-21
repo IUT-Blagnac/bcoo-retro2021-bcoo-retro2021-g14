@@ -31,7 +31,23 @@ Enfin, la dernière maquette affiche les paramètres du compte de l'utilisateur 
 
 Diagramme des cas d'utilisations
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Dans cette partie, nous avons créer un diagramme qui va référencer toute les utilistaions possibles pour un utilisateur :
 
+* créer un serveur
+* créer_serveur
+* prendre abonnement
+* envoyer message
+* ajouter amis
+* appeler
+* se connecter
+
+on peut retrouver toute ces fonctionnailtés sur le maquetage.
+
+Ainsi nous avons pu créer ce diagramme qui liste toute les possibilités. 
+
+On remarque aussi la présence du serveur qui va récupérer toute les actions éffectuer par l'utilisateur.
+
+link:projet/use_case/cas_d'utilisations.wsd
 
 
 
