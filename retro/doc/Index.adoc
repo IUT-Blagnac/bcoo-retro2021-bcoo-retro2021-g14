@@ -9,4 +9,4 @@ Dans ce document, nous allons vous montrer :
 
 Maquettes écran
 ^^^^^^^^^^^^^^^
-
+Les figures qui suivent sont toutes les maquettes écrans que nous avons réalisés : il y en a une par fonctionnalité offerte par la plateforme.
