@@ -5,7 +5,7 @@ Dans ce document, nous allons vous montrer :
 * Des maquettes d’écran
 * Un diagramme des cas d’utilisation
 * Un diagramme de séquence système pour la création d'un serveur
-* Un diagramme des classe probables de l’application 
+* Un diagramme des classe probables de l’application
 
 Maquettes écran
 ^^^^^^^^^^^^^^^
@@ -41,7 +41,7 @@ Dans cette partie, nous avons créer un diagramme qui va référencer toute les 
 * appeler
 * se connecter
 
-on peut retrouver toute ces fonctionnailtés sur le maquetage.
+On peut retrouver toute ces fonctionnailtés sur le maquetage.
 
 Ainsi nous avons pu créer ce diagramme qui liste toute les possibilités. 
 
