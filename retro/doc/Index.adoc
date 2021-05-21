@@ -49,7 +49,6 @@ On remarque aussi la présence du serveur qui va récupérer toute les actions �
 
  [plantuml, diagram-classes, png]
  ....
-@startuml
 left to right direction
 
 :Utilisateur: #aliceblue;line:blue;text:blue
@@ -120,7 +119,6 @@ Serveur <-- envoyer_message
 Serveur <-- ajouter_amis
 Serveur <-- appeler
 Serveur <-- se_connecter
-@enduml
 ....
 
 
