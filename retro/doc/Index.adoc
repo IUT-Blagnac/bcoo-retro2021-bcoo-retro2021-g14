@@ -74,4 +74,12 @@ image:https://plantuml-server.kkeisuke.dev/png/XO_13SCm24Nlde85ia0EKJQfK4mh96n76
 
 Diagramme des classes probables de l’application
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D'après les maquettes écrans que nous avons, certaines classes semblent assez facile à deviner tel que les classes Compte, Serveur, Rôle ou encore Groupe.
+
+L'image 1 nous montre ce que peut stocker un objet serveur, tel que le nom, une image ou encore une liste d'objets Rôle. et d'emojis.
+
+L'image 4 nous montre ce que peut stocker un objet Rôle, tel que son nom, sa couleur ou encore ses permissions. un rôle peut être créé, modifié ou supprimé.
+
+L'image 5 nous montre l'interface d'un objet compte. Il a une liste d'amis et peut avoir des groupes.
+
 image:https://plantuml-server.kkeisuke.dev/png/ZLRDRjim3BxhAOHSl0r8a0xOPTYXHTVjaWx5kXTGRAPX8KkU90SjjZvGdwClDagY5RThu-HYVlhvI7sag9pwe5peMotFjV8U_9MpQxNMu4Krd_Y9Ibuffre83hpiRE-a1jc0zsYEsBt51cIDhjQGRMYxS2zRQDVW_FEXiBNDCH69OwAce0E2zE1sG34ViQMEsiZhl47y4L9AR0P8mDXsXBIziV5REm3txZq5HK281y4yFosTE94GIm8oSnIx0zSYoMYDJxYslMRomXfjttUTmxRWrZQuGNPQ_5sqzXQBmupOunvWgsvW3mzv6NDVAsrDuSw8kVVWBRB4KnrCvy7fwjoQeEeW9qXog2lq0NW7Hwp7GnpssfKHYcwyISvEPd8-JvzpIvK9q_KcZbXIyTMJ3UweygUltd2YxyxsNImbRDYa-DbA-HniiyEG57zwl8KwcxLxUWItGZ0n4m-Yw7JMTQ0bAzIe05zXtOU2lg6H2OJE_x91wOnKt5MoJDoTDOs30QkwThRUfWNaAyidPnyNYm-iQRAIxxSK4uV5ZEKGMG_AnsVaz0rrop1TFGzzOxEvjS5IFzoWphUBEXk9UXrKO3ryCgay3DnXAVQewolLFf8u-_k1mTcnq6U_U_GO1gOuT77NeLDbg5FtXRjpbYxOJS5sit7uJD_iuCjVqdUoNiLKfOhgCf_VImZKaKm0qq-KAX-NDwP27Mmc4FHS13GgA7GWME5LBmIOdSrd7MiuhgjupajeKEKJ5c9s6IV8umRhBNL4GGwqfkBDw67oNehf5TMAjA0MWZxswQaxomz4QI9KxUabaF_FB1QVbZIRkl7Rqwc_ZgPf_6Iv7DycphhyB4dazB2Ing_5yMmTrHNf_VIOKv9RI5h6n2VBsQl4BrVE3j4E3M0V1ESlhgRKen3YcDTyBkWvEWNJq5-OVm00.png[width=100%,height=100%]
