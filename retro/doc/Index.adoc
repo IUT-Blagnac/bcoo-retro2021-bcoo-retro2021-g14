@@ -14,7 +14,7 @@ Pour commencer nous allons vous parler des maquettes écran :
 Au total, nous en avons réalisé 8. Chacune d'elles présente une interface de l'application.
 
 La première maquette montre l'interface de gestion d'un serveur (si l'on possède les droits pour).
-image:https://i.ibb.co/XCkq7Nn/1-interface-gestion-d-un-serveur.png[alt=%221-interface-gestion-d-un-serveur%22,width=75%,height=75%]
+image:https://i.ibb.co/XCkq7Nn/1-interface-gestion-d-un-serveur.png[alt=%221-interface-gestion-d-un-serveur%22,width=100%,height=100%]
 
 La deuxième maquette, toujours dans la gestion d'un serveur, servira à gérer les logs du serveur.
 
