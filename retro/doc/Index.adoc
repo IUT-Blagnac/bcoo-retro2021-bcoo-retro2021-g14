@@ -20,7 +20,7 @@ Pour commencer nous allons vous parler des maquettes écran :
 Diagramme des cas d'utilisations
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-link:~/~/projet/Diagramme des cas d’utilisation/diagramme use cases.wsd
+https://github.com/IUT-Blagnac/bcoo-retro2021-bcoo-retro2021-g14/blob/b7951a411350f863d4168c1f2baff9795cf978ce/projet/Diagramme%20des%20cas%20d%E2%80%99utilisation/diagramme%20use%20cases.wsd
 
 
 
