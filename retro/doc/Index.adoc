@@ -14,7 +14,7 @@ Pour commencer nous allons vous parler des maquettes écran :
 Au total, nous en avons réalisé 8. Chacune d'elles présente une interface de l'application.
 
 La première maquette montre l'interface de gestion d'un serveur (si l'on possède les droits pour).
-image::https://discord.com/channels/@me/753676281417171114/845342660231299092[alt="1-interface-gestion-d-un-serveur.png",width=1290,height=699]
+image::https://github.com/IUT-Blagnac/bcoo-retro2021-bcoo-retro2021-g14/blob/master/projet/maquettes%20écrans/1-interface%20gestion%20d'un%20serveur.png[alt="1-interface gestion d'un serveur.",width=1290,height=699]
 
 La deuxième maquette, toujours dans la gestion d'un serveur, servira à gérer les logs du serveur.
 
@@ -47,87 +47,15 @@ Ainsi nous avons pu créer ce diagramme qui liste toute les possibilités.
 
 On remarque aussi la présence du serveur qui va récupérer toute les actions éffectuer par l'utilisateur.
 
-image::https://plantuml-server.kkeisuke.dev/svg/XLL9RXin4Bpp5SJau9C-80U1Wo27d6p4o5cWgHwP1ZTp4U8dwHtwc9jBDEGioArPLMHpcbMO1n-O2r598c4CD1ZgnEarqADmm8Cmcf3zdo2ay2n0T7lwXKd1uKL6k9T2mpvN0Vw6N97zCxXp4X92eWVEF50F1swqnlF0KURfy0pq1WmtcT2UEs5JqwAwAuY3IJCQfw9aY6N9Rr1M2jV0mzIMMGkoTlnUwkaWYryDtB7IwWbNx8HQZxslbuHFKiuKE9PrFvYwNXnhE1Ej4hoGMECHk7IcLs3n7g4L5QIzx9k9E8q3Ky9FAEYp-K1KWVTultp2puBHg6c5XrPlNqqdmtKmdU9eUAV0TLIWGoS2PTv49xjU4jGtEucnq-2w-IRhG1yT7DXBUkpKeWoxmEa39cOwremZldbMFjPoHMNPHttQfr8rccdsxdh1wVbYoJB_3ANU5PrxAy4RtbfkIQzrs_1BdqLsE8B3uWvCLbitDqZOkl9mDfn9MDj02xMnBoLnVLjY8aWSJvDdkjjzw_99sXGko6OMYMkqorDh_CY_62QincM1bJXqy2sWlJXdSQLP5vyvEuiHcSUgQZ08MrIEmnQ9hj-YC7tBwonpGLQYafGb2rjipi3o-DxrP1Q2FArgspLkIi4QstgDTDQUizN1_n5bkn9IVnhqwsutltvBhGokfUVFt7ATGJgYshJ5Eiy_O4_yFtu2.svg
 
-```PlantUml
-@startuml
-left to right direction
-
-:Utilisateur: #aliceblue;line:blue;text:blue
-:Serveur:
-
-
-usecase se_connecter as "Se connecter"
-usecase inscription as "S'inscrire"
-usecase formulaire as "Remplir formulaire"
-
-usecase appeler as "Appeler"
-usecase partecran as "Partager son écran"
-usecase camera as "Caméra"
-usecase coupmic as "Couper micro"
-usecase coupcasque as "Couper casque"
-
-usecase ajouter_amis
-
-usecase envoyer_message as "Envoyer un message"
-usecase envpho as "Envoyer photo"
-usecase envdoc as "Envoyer document"
-usecase envemoji as "Envoyer émojie"
-usecase envgif as "Envoyer gif"
-
-usecase prendre_abonnement as "Prendre un abonnement"
-usecase offrir as "Offrir abonnement"
-usecase payer as "Payer abonnement"
-
-usecase créer_serveur as "Créer un serveur"
-usecase formulserv as "Remplir formulaire serveur"
-usecase amisserv as "Inviter amis"
-usecase créer_salon as "Créer un salon"
-usecase créer_salon_vocale as "Créer un salon vocale"
-usecase créer_salon_texte as "Créer un salon textuel"
-
-Utilisateur --> se_connecter
-inscription --> se_connecter
-formulaire --> inscription
-
-Utilisateur --> appeler
-appeler --> coupmic
-appeler --> coupcasque
-appeler --> partecran
-appeler --> camera
-
-Utilisateur --> ajouter_amis
-
-Utilisateur --> envoyer_message
-envoyer_message --> envdoc
-envoyer_message --> envemoji
-envoyer_message --> envgif
-envoyer_message --> envpho
-
-Utilisateur --> prendre_abonnement
-prendre_abonnement --> offrir
-prendre_abonnement --> payer
-
-Utilisateur --> créer_serveur
-créer_serveur --> amisserv
-créer_serveur --> formulserv
-créer_serveur --> créer_salon
-créer_salon --> créer_salon_vocale
-créer_salon --> créer_salon_texte
-
-Serveur <-- créer_serveur
-Serveur <-- prendre_abonnement
-Serveur <-- envoyer_message
-Serveur <-- ajouter_amis
-Serveur <-- appeler
-Serveur <-- se_connecter
-@enduml
-```
 
 
 diagramme de séquence système
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+dans cette partie j'ai repris l'action de créer un serveur:
+
+pour commencer l'utilisateur va faire une demande de création d'un serveur. Ensuite il va devoir remplir un formulaire concernant les informations du serveur
 
 
 
