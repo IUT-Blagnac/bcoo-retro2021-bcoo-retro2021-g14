@@ -48,6 +48,7 @@ Ainsi nous avons pu créer ce diagramme qui liste toute les possibilités.
 On remarque aussi la présence du serveur qui va récupérer toute les actions éffectuer par l'utilisateur.
 
  [plantuml, diagram-classes, png]
+ ....
 @startuml
 left to right direction
 
@@ -120,7 +121,7 @@ Serveur <-- ajouter_amis
 Serveur <-- appeler
 Serveur <-- se_connecter
 @enduml
-
+....
 
 
 
