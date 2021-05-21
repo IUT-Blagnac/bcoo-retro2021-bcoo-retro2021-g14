@@ -20,7 +20,7 @@ Pour commencer nous allons vous parler des maquettes écran :
 Diagramme des cas d'utilisations
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-link:/bcoo-retro2021-bcoo-retro2021-g14/projet/Diagramme des cas d’utilisation/diagramme use cases.wsd
+link:\bcoo-retro2021-bcoo-retro2021-g14\projet/Diagramme des cas d’utilisation\diagramme use cases.wsd
 
 
 
