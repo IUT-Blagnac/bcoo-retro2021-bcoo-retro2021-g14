@@ -34,13 +34,12 @@ Diagramme des cas d'utilisations
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Dans cette partie, nous avons créer un diagramme qui va référencer toute les utilistaions possibles pour un utilisateur :
 
-* créer un serveur
-* créer_serveur
-* prendre un abonnement
-* envoyer des messages
-* ajouter des amis
-* appeler
-* se connecter
+* créer un serveur : on peut retrouver cela sur le sixième maquetage (le bouton plus en bas de la liste des serveurs).
+* prendre un abonnement on peut retrouver cela sur le huitième maquetage ( les paramètres discord nitro).
+* envoyer des messages : on peut retrouver cela sur le sixième maquetage.
+* ajouter des amis : on peut retrouver cela sur le septième maquetage.
+* appeler : on peut retrouver cela sur le sixième maquetage.
+* se connecter : on peut retrouver cela sur le neuvième maquetage.
 
 On peut retrouver toute ces fonctionnailtés sur le maquetage.
 
