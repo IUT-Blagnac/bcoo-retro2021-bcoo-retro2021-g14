@@ -14,7 +14,7 @@ Pour commencer nous allons vous parler des maquettes écran :
 Au total, nous en avons réalisé 8. Chacune d'elles présente une interface de l'application.
 
 La première maquette montre l'interface de gestion d'un serveur (si l'on possède les droits pour).
-image::https://cdn.discordapp.com/attachments/753676281417171114/845342657269727232/1-interface-gestion-d-un-serveur.png[alt="1-interface-gestion-d-un-serveur.png",width=1290,height=699]
+image::https://discord.com/channels/@me/753676281417171114/845342660231299092[alt="1-interface-gestion-d-un-serveur.png",width=1290,height=699]
 
 La deuxième maquette, toujours dans la gestion d'un serveur, servira à gérer les logs du serveur.
 
