@@ -47,18 +47,6 @@ Ainsi nous avons pu créer ce diagramme qui liste toute les possibilités.
 
 On remarque aussi la présence du serveur qui va récupérer toute les actions éffectuer par l'utilisateur.
 
- [plantuml, diagram-classes, png]
- ....
-class BlockProcessor
-class DiagramBlock
-class DitaaBlock
-class PlantUmlBlock
-
-BlockProcessor <|-- DiagramBlock
-DiagramBlock <|-- DitaaBlock
-DiagramBlock <|-- PlantUmlBlock
-....
-
 
 diagramme de séquence système
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
