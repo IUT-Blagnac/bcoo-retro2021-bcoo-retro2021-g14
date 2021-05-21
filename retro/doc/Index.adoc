@@ -14,7 +14,7 @@ Pour commencer nous allons vous parler des maquettes écran :
 Au total, nous en avons réalisé 8. Chacune d'elles présente une interface de l'application.
 
 La première maquette montre l'interface de gestion d'un serveur (si l'on possède les droits pour).
-image::https://github.com/IUT-Blagnac/bcoo-retro2021-bcoo-retro2021-g14/blob/master/projet/maquettes%20écrans/1-interface%20gestion%20d'un%20serveur.png]
+image::https://github.com/IUT-Blagnac/bcoo-retro2021-bcoo-retro2021-g14/blob/master/projet/maquettes%20écrans/1-interface%20gestion%20d'un%20serveur.png
 
 La deuxième maquette, toujours dans la gestion d'un serveur, servira à gérer les logs du serveur.
 
