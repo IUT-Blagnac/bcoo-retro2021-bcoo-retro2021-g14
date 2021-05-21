@@ -1,1 +1,1 @@
-dossier contenant le rendu sous forme d'un document html.
+Dossier contenant le rendu sous forme d'un document html.

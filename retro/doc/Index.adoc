@@ -10,3 +10,58 @@ Dans ce document, nous allons vous montrer :
 Maquettes écran
 ^^^^^^^^^^^^^^^
 
+Pour commencer nous allons vous parler des maquettes écran :
+Au total, nous en avons réalisé 8. Chacune d'elles présente une interface de l'application.
+
+La première maquette montre l'interface de gestion d'un serveur (si l'on possède les droits pour).
+
+La deuxième maquette, toujours dans la gestion d'un serveur, servira à gérer les logs du serveur.
+
+La troisième maquette s'intéresse cette fois à la section modération du serveur.
+
+La quatrième maquette, la dernière en lien avec la gesion d'un serveur, montre la gestion des rôles et des permissions attribuables.
+
+La cinquième se concentrera sur la liste d'amis de l'utilisateur.
+
+La sixième montre l'interface d'un serveur lorsqu'on y accède sans modifier ses paramètres.
+
+L'avant-dernière montre l'interface des conversations privées avec les autres utilisateurs.
+
+Enfin, la dernière maquette affiche les paramètres du compte de l'utilisateur qui peuvent être modifiés.
+
+Diagramme des cas d'utilisations
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Dans cette partie, nous avons créer un diagramme qui va référencer toute les utilistaions possibles pour un utilisateur :
+
+* créer un serveur
+* créer_serveur
+* prendre abonnement
+* envoyer message
+* ajouter amis
+* appeler
+* se connecter
+
+on peut retrouver toute ces fonctionnailtés sur le maquetage.
+
+Ainsi nous avons pu créer ce diagramme qui liste toute les possibilités. 
+
+On remarque aussi la présence du serveur qui va récupérer toute les actions éffectuer par l'utilisateur.
+
+link:projet/use_case/cas_d'utilisations.wsd
+
+
+
+
+
+diagramme de séquence système
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+
+
+
+diagramme des classe probables de l’application
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
