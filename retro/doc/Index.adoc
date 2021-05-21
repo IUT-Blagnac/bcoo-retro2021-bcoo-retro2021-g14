@@ -11,16 +11,22 @@ Maquettes écran
 ^^^^^^^^^^^^^^^
 
 Pour commencer nous allons vous parler des maquettes écran :
+Au total, nous en avons réalisé 8. Chacune d'elles présente une interface de l'application.
 
+La première maquette montre l'interface de gestion d'un serveur (si l'on possède les droits pour).
 
+La deuxième maquette, toujours dans la gestion d'un serveur, servira à gérer les logs du serveur.
 
+La troisième maquette s'intéresse cette fois à la section modération du serveur.
 
+La quatrième maquette, la dernière en lien avec la gesion d'un serveur, montre la gestion des rôles et des permissions attribuables.
 
+La cinquième se concentrera sur la liste d'amis de l'utilisateur.
 
 Diagramme des cas d'utilisations
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-https://github.com/IUT-Blagnac/bcoo-retro2021-bcoo-retro2021-g14/blob/b7951a411350f863d4168c1f2baff9795cf978ce/projet/Diagramme%20des%20cas%20d%E2%80%99utilisation/diagramme%20use%20cases.wsd
+
 
 
 
