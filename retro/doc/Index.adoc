@@ -54,7 +54,7 @@ image:https://plantuml-server.kkeisuke.dev/png/XLL9RXin4Bpp5SJau9C-80U1Wo27d6p4o
 diagramme de séquence système
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-image:https://plantuml-server.kkeisuke.dev/png/XO_13SCm24Nlde85ia0EKJQfK4mh96n76B9JvkXYfMgZfkgXtE3h_V-Pkw6Q5qatRRx2elSTZLkzTDADN1F4kB5mHuiTXWdU4eoGgM3DzC7WZE5Yl0NrTJpW8OpElYCebLLOGGYkJOiBij8Vvb2U1UWLaEadDyrKSppv0000.png[width=50%,height=50%]
+image:https://plantuml-server.kkeisuke.dev/png/XO_13SCm24Nlde85ia0EKJQfK4mh96n76B9JvkXYfMgZfkgXtE3h_V-Pkw6Q5qatRRx2elSTZLkzTDADN1F4kB5mHuiTXWdU4eoGgM3DzC7WZE5Yl0NrTJpW8OpElYCebLLOGGYkJOiBij8Vvb2U1UWLaEadDyrKSppv0000.png[width=25%,height=25%]
 
 
 
