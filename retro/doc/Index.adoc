@@ -47,7 +47,7 @@ Ainsi nous avons pu créer ce diagramme qui liste toute les possibilités.
 
 On remarque aussi la présence du serveur qui va récupérer toute les actions éffectuer par l'utilisateur.
 
-link:projet/use_case/cas_d'utilisations.wsd
+https://github.com/IUT-Blagnac/bcoo-retro2021-bcoo-retro2021-g14/blob/0082a16958743480f226808f15ea9a14a35fb7b2/projet/use_case/cas_d'utilisations.wsd
 
 
 
