@@ -49,78 +49,15 @@ On remarque aussi la présence du serveur qui va récupérer toute les actions �
 
  [plantuml, diagram-classes, png]
  ....
-left to right direction
+class BlockProcessor
+class DiagramBlock
+class DitaaBlock
+class PlantUmlBlock
 
-:Utilisateur: #aliceblue;line:blue;text:blue
-:Serveur:
-
-
-usecase se_connecter as "Se connecter"
-usecase inscription as "S'inscrire"
-usecase formulaire as "Remplir formulaire"
-
-usecase appeler as "Appeler"
-usecase partecran as "Partager son écran"
-usecase camera as "Caméra"
-usecase coupmic as "Couper micro"
-usecase coupcasque as "Couper casque"
-
-usecase ajouter_amis
-
-usecase envoyer_message as "Envoyer un message"
-usecase envpho as "Envoyer photo"
-usecase envdoc as "Envoyer document"
-usecase envemoji as "Envoyer émojie"
-usecase envgif as "Envoyer gif"
-
-usecase prendre_abonnement as "Prendre un abonnement"
-usecase offrir as "Offrir abonnement"
-usecase payer as "Payer abonnement"
-
-usecase créer_serveur as "Créer un serveur"
-usecase formulserv as "Remplir formulaire serveur"
-usecase amisserv as "Inviter amis"
-usecase créer_salon as "Créer un salon"
-usecase créer_salon_vocale as "Créer un salon vocale"
-usecase créer_salon_texte as "Créer un salon textuel"
-
-Utilisateur --> se_connecter
-inscription --> se_connecter
-formulaire --> inscription
-
-Utilisateur --> appeler
-appeler --> coupmic
-appeler --> coupcasque
-appeler --> partecran
-appeler --> camera
-
-Utilisateur --> ajouter_amis
-
-Utilisateur --> envoyer_message
-envoyer_message --> envdoc
-envoyer_message --> envemoji
-envoyer_message --> envgif
-envoyer_message --> envpho
-
-Utilisateur --> prendre_abonnement
-prendre_abonnement --> offrir
-prendre_abonnement --> payer
-
-Utilisateur --> créer_serveur
-créer_serveur --> amisserv
-créer_serveur --> formulserv
-créer_serveur --> créer_salon
-créer_salon --> créer_salon_vocale
-créer_salon --> créer_salon_texte
-
-Serveur <-- créer_serveur
-Serveur <-- prendre_abonnement
-Serveur <-- envoyer_message
-Serveur <-- ajouter_amis
-Serveur <-- appeler
-Serveur <-- se_connecter
+BlockProcessor <|-- DiagramBlock
+DiagramBlock <|-- DitaaBlock
+DiagramBlock <|-- PlantUmlBlock
 ....
-
 
 
 diagramme de séquence système
