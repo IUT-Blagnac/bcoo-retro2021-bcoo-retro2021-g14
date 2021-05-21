@@ -17,18 +17,25 @@ La première maquette montre l'interface de gestion d'un serveur (si l'on possè
 image:https://i.ibb.co/XCkq7Nn/1-interface-gestion-d-un-serveur.png[alt=%221-interface-gestion-d-un-serveur%22,width=100%,height=100%]
 
 La deuxième maquette, toujours dans la gestion d'un serveur, servira à gérer les logs du serveur.
+image:https://i.ibb.co/Wp9XYNy/2-interface-gestion-serveur-logs.png[alt=%222-interface-gestion-serveur-logs%22,width=100%,height=100%]
 
 La troisième maquette s'intéresse cette fois à la section modération du serveur.
+image:https://i.ibb.co/CVS9Nhq/3-interface-gestion-serveur-mod-ration.png[alt=%223-interface-gestion-serveur-mod-ration%22,width=100%,height=100%]
 
 La quatrième maquette, la dernière en lien avec la gesion d'un serveur, montre la gestion des rôles et des permissions attribuables.
+image:https://i.ibb.co/Swwydn0/4-interface-gestion-serveur-r-les.png[alt=%224-interface-gestion-serveur-r-les%22,width==100%,height=100%]
 
 La cinquième se concentrera sur la liste d'amis de l'utilisateur.
+image:https://i.ibb.co/hgyNZW9/5-interface-liste-ami.png[alt=%225-interface-liste-ami%22,width=100%,height=100%]
 
 La sixième montre l'interface d'un serveur lorsqu'on y accède sans modifier ses paramètres.
+image:https://i.ibb.co/vYbFw2S/6-interface-sur-un-serveur.png[alt=%226-interface-sur-un-serveur%22,width=100%,height=100%]
 
 L'avant-dernière montre l'interface des conversations privées avec les autres utilisateurs.
+image:https://i.ibb.co/df0Y7dY/7-interface-message-priv.png[alt=%227-interface-message-priv%22,width=100%,height=100%]
 
 Enfin, la dernière maquette affiche les paramètres du compte de l'utilisateur qui peuvent être modifiés.
+image:https://i.ibb.co/r4DHY9K/8-interface-param-tre-utilisateur.png[alt=%22,width=100%,height=100%]
 
 Diagramme des cas d'utilisations
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
