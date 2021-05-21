@@ -23,6 +23,12 @@ La quatrième maquette, la dernière en lien avec la gesion d'un serveur, montre
 
 La cinquième se concentrera sur la liste d'amis de l'utilisateur.
 
+La sixième montre l'interface d'un serveur lorsqu'on y accède sans modifier ses paramètres.
+
+L'avant-dernière montre l'interface des conversations privées avec les autres utilisateurs.
+
+Enfin, la dernière maquette affiche les paramètres du compte de l'utilisateur qui peuvent être modifiés.
+
 Diagramme des cas d'utilisations
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
