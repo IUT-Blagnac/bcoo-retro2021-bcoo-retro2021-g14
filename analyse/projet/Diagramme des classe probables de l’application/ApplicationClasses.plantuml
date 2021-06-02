@@ -1,0 +1,76 @@
+@startuml ClassesProbables
+'--------------------------------
+' Parametres pour le dessin
+'--------------------------------
+hide circle
+hide empty members
+hide empty methods
+'--------------------------------
+
+
+'--------------------------------
+'Partie serveur 
+'--------------------------------
+class Fiche 
+{
+  nomP
+  prenomP
+  imageP
+  initialesP
+  surnomP
+  descriptionP
+  listeMatiere
+  listeMatieres
+  fiche
+
+}
+
+
+
+
+class Module
+{
+    nom
+}
+
+
+
+
+class Compte
+{
+    login 
+    motDePasse
+    
+
+    seConnecter()
+}
+
+class CompteProfesseur
+{
+   fiche
+
+   modifierFiche()
+}
+
+class CompteSecrétariat
+{
+   créerProfesseur()
+   definirModuleEnseignant
+}
+
+
+
+
+CompteProfesseur --|> Compte
+CompteSecrétariat --|> Compte
+
+
+
+FicheProfesseur "1..*"--"1..*" Module : Enseigne
+CompteProfesseur "1" -- "1" Fiche : Appartient
+
+
+'---------------------------------
+ 
+
+@enduml
