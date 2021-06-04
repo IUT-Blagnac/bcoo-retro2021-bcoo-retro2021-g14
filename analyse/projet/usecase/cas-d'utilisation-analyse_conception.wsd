@@ -9,8 +9,8 @@ package utilisateur_connecter{
 
 usecase filtre as "filtrer"
 usecase acfiche as "accéder à sa fiche"
-usecase modif as "modifier fiche"
-usecase parc as "parcourir fiches"
+usecase modif as "modifier sa fiche"
+usecase parc as "parcourir les fiches"
 usecase def as "definir module d'un enseignant"
 usecase co as "se connecter"
 usecase create as "créer un enseignant"
@@ -26,9 +26,12 @@ membre_secretariat -- modifen
 membre_secretariat -- def
 membre_secretariat -- create
 
-filtre -- parc
+filtre -|> parc
 
-acfiche -- modif
+enseignant -- modif
+
+utilisateur_connecter -|> utilisateur
+
 
 
 
