@@ -1,0 +1,35 @@
+@startuml
+left to right direction
+
+:utilisateur:
+package utilisateur_connecter{
+:enseignant:
+:membre_secretariat:
+}
+
+usecase filtre as "filtrer"
+usecase acfiche as "accéder à sa fiche"
+usecase modif as "modifier fiche"
+usecase parc as "parcourir fiches"
+usecase def as "definir module d'un enseignant"
+usecase co as "se connecter"
+usecase create as "créer un enseignant"
+usecase modifen as "modifier la fiche d'un enseignant"
+
+utilisateur -- parc
+utilisateur -- filtre
+utilisateur -- co
+
+enseignant -- acfiche
+
+membre_secretariat -- modifen
+membre_secretariat -- def
+membre_secretariat -- create
+
+filtre -- parc
+
+acfiche -- modif
+
+
+
+@enduml
