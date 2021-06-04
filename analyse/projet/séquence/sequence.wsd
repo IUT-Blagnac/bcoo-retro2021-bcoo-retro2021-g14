@@ -1,0 +1,13 @@
+@startuml
+
+actor utilisateur as user
+participant serveur as serv
+
+user -> serv : filtrer
+activate serv
+user -> serv : choisir un filtre
+serv --> user : afficher liste des utilisateurs filtré
+deactivate serv
+
+
+@enduml
