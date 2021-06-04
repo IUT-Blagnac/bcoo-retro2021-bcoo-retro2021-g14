@@ -19,7 +19,6 @@ class Fiche
   initialesP
   surnomP
   descriptionP
-  listeMatiere
   listeMatieres
   fiche
 
@@ -30,7 +29,7 @@ class Fiche
 
 class Module
 {
-    nom
+    nomM
 }
 
 
@@ -55,7 +54,7 @@ class CompteProfesseur
 class CompteSecrétariat
 {
    créerProfesseur()
-   definirModuleEnseignant
+   definirModuleEnseignant()
 }
 
 
@@ -66,8 +65,11 @@ CompteSecrétariat --|> Compte
 
 
 
-FicheProfesseur "1..*"--"1..*" Module : Enseigne
+Fiche "1..*"--"1..*" Module : Enseigne
 CompteProfesseur "1" -- "1" Fiche : Appartient
+
+
+(Fiche, Module) . ListeModules
 
 
 '---------------------------------
