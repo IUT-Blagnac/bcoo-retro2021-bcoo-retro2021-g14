@@ -1,0 +1,197 @@
+@startuml ClassesProbables
+'--------------------------------
+' Parametres pour le dessin
+'--------------------------------
+hide circle
+hide empty members
+hide empty methods
+'--------------------------------
+
+
+'--------------------------------
+'Partie serveur 
+'--------------------------------
+class Serveur
+{
+   idServeur
+   nomServeur
+   creer()
+
+
+   
+
+}
+
+class Role
+{
+    idRole
+    nomRole
+    permissions
+    couleur
+    creer()
+    supprimer()
+
+
+}
+
+class Emoji
+{
+    idEmoji
+    nomEmoji
+    imageEmoji
+    creer()
+    supprimer()
+    
+
+
+}
+
+class Salon
+{
+    idSalon
+    nomSalon
+    creer()
+    supprimer()
+
+
+}
+
+'--------------------------
+
+
+
+'--------------------------
+'Contact 
+'--------------------------
+
+
+class ListeContact
+{
+    listeContact
+    nombreContact
+}
+
+ListeContact "1" -- "1" Compte
+
+
+'------------------------------
+
+
+
+'------------------------------
+'Classes diverses
+'------------------------------
+
+class Groupe
+{
+idGroupe
+nomGroupe
+imageGroupe
+inviter()
+éjecter()
+créerLien()
+
+}
+
+
+
+class Appel 
+{
+    dateDebut
+    dateFin 
+    tpsTotal 
+    appeler()
+    répondre()
+    raccrocher()
+}
+
+Compte "2..*" -- "1..*" Appel
+
+'---------------------
+
+
+
+
+'-------------------------
+'Comptes
+'--------------------------
+class Compte
+{
+    idCompte
+    pseudo
+    photoProfil
+    messageStatut
+    statutConnexion
+    créer()
+    supprimer()
+}
+
+
+
+class CompteNitro 
+{
+    dateAquisition
+    dateExpiration
+    payer()
+    prolonger()
+    offrir()
+}
+
+CompteNitro <|-- Compte
+
+
+'-----------------------
+
+
+
+
+'---------------------------
+'Messages et contenus
+'----------------------------
+class Message
+{
+idMessage
+contenu
+destinataire
+messageLu
+
+envoyer()
+supprimer()
+répondre()
+
+}
+
+Media <|-- Message
+class Media 
+{
+fichier
+tailleFichier
+}
+
+
+
+'----------------------------
+
+
+
+
+'----------------------------
+'Les lisisons
+'------------------------------
+Serveur "1" -- "*"  Role 
+Serveur "1" -- "*..50"  Emoji 
+Serveur "1" -- "*..50"  Salon 
+Serveur "*..100" -- "1..*"  Compte : est membre
+Serveur "1" -- "*"  Compte : est propriétaire
+Groupe "*" -- "1..10" Compte : est membre
+Groupe "*" -- "1" Compte : est propriétaire
+Compte "1" -- "*" Message : envoi
+
+
+
+
+
+'---------------------------------
+ 
+
+@enduml

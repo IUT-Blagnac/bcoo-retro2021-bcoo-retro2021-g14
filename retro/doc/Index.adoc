@@ -1,0 +1,85 @@
+= Compte rendu COO Groupe 14
+
+Dans ce document, nous allons vous montrer :
+
+* Des maquettes d’écran
+* Un diagramme des cas d’utilisation
+* Un diagramme de séquence système pour la création d'un serveur
+* Un diagramme des classe probables de l’application
+
+Maquettes écran
+^^^^^^^^^^^^^^^
+
+Pour commencer nous allons vous parler des maquettes écran :
+Au total, nous en avons réalisé 8. Chacune d'elles présente une interface de l'application.
+
+La première maquette montre l'interface de gestion d'un serveur (si l'on possède les droits pour).
+image:https://i.ibb.co/XCkq7Nn/1-interface-gestion-d-un-serveur.png[alt=%221-interface-gestion-d-un-serveur%22,width=100%,height=100%]
+
+La deuxième maquette, toujours dans la gestion d'un serveur, servira à gérer les logs du serveur.
+image:https://i.ibb.co/Wp9XYNy/2-interface-gestion-serveur-logs.png[alt=%222-interface-gestion-serveur-logs%22,width=100%,height=100%]
+
+La troisième maquette s'intéresse cette fois à la section modération du serveur.
+image:https://i.ibb.co/CVS9Nhq/3-interface-gestion-serveur-mod-ration.png[alt=%223-interface-gestion-serveur-mod-ration%22,width=100%,height=100%]
+
+La quatrième maquette, la dernière en lien avec la gesion d'un serveur, montre la gestion des rôles et des permissions attribuables.
+image:https://i.ibb.co/Swwydn0/4-interface-gestion-serveur-r-les.png[alt=%224-interface-gestion-serveur-r-les%22,width==100%,height=100%]
+
+La cinquième se concentrera sur la liste d'amis de l'utilisateur.
+image:https://i.ibb.co/hgyNZW9/5-interface-liste-ami.png[alt=%225-interface-liste-ami%22,width=100%,height=100%]
+
+La sixième montre l'interface d'un serveur lorsqu'on y accède sans modifier ses paramètres.
+image:https://i.ibb.co/vYbFw2S/6-interface-sur-un-serveur.png[alt=%226-interface-sur-un-serveur%22,width=100%,height=100%]
+
+La septième montre l'interface des conversations privées avec les autres utilisateurs.
+image:https://i.ibb.co/df0Y7dY/7-interface-message-priv.png[alt=%227-interface-message-priv%22,width=100%,height=100%]
+
+L'avant-dernière maquette affiche les paramètres du compte de l'utilisateur qui peuvent être modifiés.
+image:https://i.ibb.co/r4DHY9K/8-interface-param-tre-utilisateur.png[alt=%22,width=100%,height=100%]
+
+Enfin, la dernière maquette est une maquette de la fenêtre de connexion de l'application.
+image:https://i.ibb.co/f0ZhFsb/9-connexion.png[width=100%,height=100%]
+
+Diagramme des cas d'utilisations
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Dans cette partie, nous avons créer un diagramme qui va référencer toute les utilistaions possibles pour un utilisateur :
+
+* créer un serveur : on peut retrouver cela sur le sixième maquetage (le bouton plus en bas de la liste des serveurs). L'utilisateur va envoyer une requête au serveur afin de créer un serveur.
+* prendre un abonnement on peut retrouver cela sur le huitième maquetage ( les paramètres discord nitro). L'utilisateur envoie au serveur une demande pour devenir discord nitro, pour cela l'utilisateur devra effectuer un achat.
+* envoyer des messages : on peut retrouver cela sur le septième maquetage. L'utilisateur peut passeur par la bar en bas de l'écran afin de poster un message sur un serveur discord visible par les autres autilisateurs qui possèdent les droits (voir le maquétage sur les rôles du serveur qui permettent d'autoriser ou non l'accès à certaines parties du serveur).
+* ajouter des amis : on peut retrouver cela sur le septième maquetage. L'utilisateur à la possibilité d'envoyer une requête pour ajouter un ami à un autre utilisateur.
+* appeler : on peut retrouver cela sur le sixième maquetage. l'utilisateur peut choisir un utilisateur pour l'appeler en discussion privée.
+* se connecter : on peut retrouver cela sur le neuvième maquetage. l'tulistateur doit envoyer des information au serveur afin de se connecter à son compte.
+
+On peut retrouver toute ces fonctionnailtés sur le maquetage.
+
+Ainsi nous avons pu créer ce diagramme qui liste toute les possibilités. 
+
+On remarque aussi la présence du serveur qui va récupérer toute les actions effectuer par l'utilisateur.
+
+image:https://plantuml-server.kkeisuke.dev/png/XLL9RXin4Bpp5SJau9C-80U1Wo27d6p4o5cWgHwP1ZTp4U8dwHtwc9jBDEGioArPLMHpcbMO1n-O2r598c4CD1ZgnEarqADmm8Cmcf3zdo2ay2n0T7lwXKd1uKL6k9T2mpvN0Vw6N97zCxXp4X92eWVEF50F1swqnlF0KURfy0pq1WmtcT2UEs5JqwAwAuY3IJCQfw9aY6N9Rr1M2jV0mzIMMGkoTlnUwkaWYryDtB7IwWbNx8HQZxslbuHFKiuKE9PrFvYwNXnhE1Ej4hoGMECHk7IcLs3n7g4L5QIzx9k9E8q3Ky9FAEYp-K1KWVTultp2puBHg6c5XrPlNqqdmtKmdU9eUAV0TLIWGoS2PTv49xjU4jGtEucnq-2w-IRhG1yT7DXBUkpKeWoxmEa39cOwremZldbMFjPoHMNPHttQfr8rccdsxdh1wVbYoJB_3ANU5PrxAy4RtbfkIQzrs_1BdqLsE8B3uWvCLbitDqZOkl9mDfn9MDj02xMnBoLnVLjY8aWSJvDdkjjzw_99sXGko6OMYMkqorDh_CY_62QincM1bJXqy2sWlJXdSQLP5vyvEuiHcSUgQZ08MrIEmnQ9hj-YC7tBwonpGLQYafGb2rjipi3o-DxrP1Q2FArgspLkIi4QstgDTDQUizN1_n5bkn9IVnhqwsutltvBhGokfUVFt7ATGJgYshJ5Eiy_O4_yFtu2.png[width=100%,height=100%]
+
+
+
+Diagramme de séquence système
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Dans cette partie, nous avosn réalisé un diagramme qui montre la création d'un serveur discord.
+Pour commencer l'utilisateur envoie un requête afin de créer un nouveau serveur discord. Après avoir rempli un formulaire, l'utilisateur aura créé un serveur dont il sera propriétaire.
+
+image:https://plantuml-server.kkeisuke.dev/png/XO_13SCm24Nlde85ia0EKJQfK4mh96n76B9JvkXYfMgZfkgXtE3h_V-Pkw6Q5qatRRx2elSTZLkzTDADN1F4kB5mHuiTXWdU4eoGgM3DzC7WZE5Yl0NrTJpW8OpElYCebLLOGGYkJOiBij8Vvb2U1UWLaEadDyrKSppv0000.png[width=50%,height=50%]
+
+
+
+
+
+Diagramme des classes probables de l’application
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D'après les maquettes écrans que nous avons, certaines classes semblent assez facile à deviner tel que les classes Compte, Serveur, Rôle ou encore Groupe.
+
+L'image 1 nous montre ce que peut stocker un objet serveur, tel que le nom, une image ou encore une liste d'objets Rôle. et d'emojis.
+
+L'image 4 nous montre ce que peut stocker un objet Rôle, tel que son nom, sa couleur ou encore ses permissions. un rôle peut être créé, modifié ou supprimé.
+
+L'image 5 nous montre l'interface d'un objet compte. Il a une liste d'amis et peut avoir des groupes.
+
+image:https://plantuml-server.kkeisuke.dev/png/ZLRDRjim3BxhAOHSl0r8a0xOPTYXHTVjaWx5kXTGRAPX8KkU90SjjZvGdwClDagY5RThu-HYVlhvI7sag9pwe5peMotFjV8U_9MpQxNMu4Krd_Y9Ibuffre83hpiRE-a1jc0zsYEsBt51cIDhjQGRMYxS2zRQDVW_FEXiBNDCH69OwAce0E2zE1sG34ViQMEsiZhl47y4L9AR0P8mDXsXBIziV5REm3txZq5HK281y4yFosTE94GIm8oSnIx0zSYoMYDJxYslMRomXfjttUTmxRWrZQuGNPQ_5sqzXQBmupOunvWgsvW3mzv6NDVAsrDuSw8kVVWBRB4KnrCvy7fwjoQeEeW9qXog2lq0NW7Hwp7GnpssfKHYcwyISvEPd8-JvzpIvK9q_KcZbXIyTMJ3UweygUltd2YxyxsNImbRDYa-DbA-HniiyEG57zwl8KwcxLxUWItGZ0n4m-Yw7JMTQ0bAzIe05zXtOU2lg6H2OJE_x91wOnKt5MoJDoTDOs30QkwThRUfWNaAyidPnyNYm-iQRAIxxSK4uV5ZEKGMG_AnsVaz0rrop1TFGzzOxEvjS5IFzoWphUBEXk9UXrKO3ryCgay3DnXAVQewolLFf8u-_k1mTcnq6U_U_GO1gOuT77NeLDbg5FtXRjpbYxOJS5sit7uJD_iuCjVqdUoNiLKfOhgCf_VImZKaKm0qq-KAX-NDwP27Mmc4FHS13GgA7GWME5LBmIOdSrd7MiuhgjupajeKEKJ5c9s6IV8umRhBNL4GGwqfkBDw67oNehf5TMAjA0MWZxswQaxomz4QI9KxUabaF_FB1QVbZIRkl7Rqwc_ZgPf_6Iv7DycphhyB4dazB2Ing_5yMmTrHNf_VIOKv9RI5h6n2VBsQl4BrVE3j4E3M0V1ESlhgRKen3YcDTyBkWvEWNJq5-OVm00.png[width=100%,height=100%]

@@ -1,10 +1,13 @@
-= BC00 2021 - Rétro-conception Discord
+= BCOO 2021 - Rétro-conception Discord
 
 == Membre du groupe
 
-- Dupont (2A)
-- Durand (3B)
-- ...
+- MATHIEU Nicolas (1B)
+- AMOUROUX Benoit (1B)
+- FLINOIS Hugo (1B)
 
 == Outils utilisés/requis
-
+-Github
+-Git
+-SNI
+-Visual Studio Code (Pour les diagrammes UML)

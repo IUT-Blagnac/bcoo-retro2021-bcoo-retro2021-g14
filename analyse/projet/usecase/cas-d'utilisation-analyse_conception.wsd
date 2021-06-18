@@ -1,0 +1,44 @@
+@startuml
+left to right direction
+
+:utilisateur:
+:membre_secretariat:
+:responsable_année:
+:enseignant:
+
+
+usecase filtre as "filtrer"
+usecase acfiche as "accéder à sa fiche"
+usecase modif as "modifier sa fiche"
+usecase parc as "parcourir les fiches"
+usecase def as "definir module d'un enseignant"
+usecase co as "se connecter"
+usecase create as "créer un enseignant"
+usecase modifen as "modifier la fiche d'un enseignant"
+usecase deco as "se déconnecter"
+
+
+utilisateur -- parc
+utilisateur -- filtre
+utilisateur -- co
+
+enseignant -- acfiche
+enseignant -- modif
+enseignant -- deco
+
+membre_secretariat -- modifen
+membre_secretariat -- create
+
+responsable_année -- def
+
+filtre -|> parc
+
+
+
+enseignant -|> utilisateur
+responsable_année -|> enseignant
+membre_secretariat -|> responsable_année
+
+
+
+@enduml
