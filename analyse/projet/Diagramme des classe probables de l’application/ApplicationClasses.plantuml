@@ -11,7 +11,7 @@ hide empty methods
 '--------------------------------
 'Partie serveur 
 '--------------------------------
-class Fiche 
+class Enseignant 
 {
   nomP
   prenomP
@@ -19,7 +19,7 @@ class Fiche
   initialesP
   surnomP
   descriptionP
-  listeMatieres
+  modules
   fiche
 
 }
@@ -33,6 +33,14 @@ class Module
 }
 
 
+class Formation
+{
+  nomF
+}
+
+
+
+
 
 
 class Compte
@@ -44,7 +52,7 @@ class Compte
     seConnecter()
 }
 
-class CompteProfesseur
+class CompteEnseignant
 {
    fiche
 
@@ -53,23 +61,24 @@ class CompteProfesseur
 
 class CompteSecrétariat
 {
-   créerProfesseur()
+   créerEnseignant()
    definirModuleEnseignant()
 }
 
 
 
 
-CompteProfesseur --|> Compte
+CompteEnseignant --|> Compte
 CompteSecrétariat --|> Compte
 
 
 
-Fiche "1..*"--"1..*" Module : Enseigne
-CompteProfesseur "1" -- "1" Fiche : Appartient
+Enseignant "1..*"--"1..*" Module : Enseigne
+CompteEnseignant "1" -- "1" Enseignant : Appartient
+Module "1..*"--"1" Formation : Contient
 
 
-(Fiche, Module) . ListeModules
+(Enseignant, Module) . ListeModules
 
 
 '---------------------------------
