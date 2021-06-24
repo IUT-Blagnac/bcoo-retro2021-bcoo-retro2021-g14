@@ -19,6 +19,25 @@ Pour ce projet, nous avons préparé un total de 4 documents :
 
 - un fichier png qui comprend les trois maquettes écrans que nous avons réalisés.
 
-L'intégralité de ces documents peut être consulté ci-dessous, ou en annexe, avec les liens conduisant aux emplacements de ces fichiers sur le dépôt git.
+L'intégralité de ces documents peut être consulté ci-dessous, ou en annexe, avec les liens conduisant aux emplacements de ces fichiers sur le dépôt git, ainsi qu'un lien permettant de télécharger un zip contenant tous les fichiers du projet.
 
 == Fichiers du rendu
+
+Figure 1 : Diagramme de classes
+
+
+
+Figure 2 : Diagramme de séquence (filtrage des fiches enseignants)
+
+
+
+Figure 3 : Diagramme des cas d'utilisations
+
+
+
+Figure 4 : Maquettes écran de l'application
+
+
+
+== Liens utiles
+
