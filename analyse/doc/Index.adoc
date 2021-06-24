@@ -1,0 +1,9 @@
+= BCOO 2021 - Analyse et conception d'une application (partie théorique)
+:icons: font
+:toc: auto
+
+== Équipe de conception
+- Benoit AMOUROUX
+- Nicolas MATHIEU
+- Hugo FLINOIS
+
