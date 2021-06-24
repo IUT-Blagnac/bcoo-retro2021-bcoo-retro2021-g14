@@ -10,9 +10,13 @@
 == Éléments de rendu attendus
 
 Pour ce projet, nous avons préparé un total de 4 documents :
+
 - un diagramme de classes
+
 - un diagramme de séquence
+
 - un diagramme des cas d'utilisation
+
 - un fichier png qui comprend les trois maquettes écrans que nous avons réalisés.
 
 L'intégralité de ces documents peut être consulté ci-dessous, ou en annexe, avec les liens conduisant aux emplacements de ces fichiers sur le dépôt git.
