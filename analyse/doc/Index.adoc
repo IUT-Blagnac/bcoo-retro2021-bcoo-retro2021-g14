@@ -41,7 +41,7 @@ Figure 4 : Maquettes écran de l'application
 
 == Liens utiles
 
-[cols="1,2,2,5",options=header]
+[cols="1,2",options=header]
 |===
 | Fichier                         | Lien                                                                                                           |
 | Diagramme des cas d'utilisation | link:../projet/usecase/cas-d'utilisation-analyse_conception.wsd[WSD]                                           |
