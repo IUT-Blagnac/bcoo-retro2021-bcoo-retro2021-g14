@@ -37,7 +37,7 @@ image::https://i.ibb.co/5FH9tVT/DS-projet-analyse.png[alt=Diagramme de séquence
 
 Figure 3 : Diagramme des cas d'utilisations
 
-
+image::https://i.ibb.co/cNrCMzT/UC-projet-analyse.png[alt=Diagramme des cas d'utilisation de l'application.,width=25%,height=25%]
 
 Figure 4 : Maquettes écran de l'application
 
