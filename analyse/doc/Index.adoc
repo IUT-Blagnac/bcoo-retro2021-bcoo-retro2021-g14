@@ -41,7 +41,7 @@ Figure 3 : Diagramme des cas d'utilisations
 
 Figure 4 : Maquettes écran de l'application
 
-image::https://ibb.co/BVZFsC6[alt=Maquettes écrans de l'application.,width=100%,height=100%]
+image::https://i.ibb.co/WWyjK2z/Maquettes-cran.png[alt=Maquettes écrans de l'application.,width=100%,height=100%]
 
 == Liens utiles
 
