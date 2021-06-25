@@ -1,3 +1,7 @@
+
+
+
+
 = BCOO 2021 - Analyse et conception d'une application (partie théorique)
 :icons: font
 :toc: auto
@@ -42,7 +46,7 @@ Figure 4 : Maquettes écran de l'application
 == Liens utiles
 
 [cols="1,1",options=header]
-|==
+|===
 | Fichier                         | Lien                                                                                                           |
 | Diagramme des cas d'utilisation | link:../projet/usecase/cas-d'utilisation-analyse_conception.wsd[WSD]                                           |
 | Diagramme de séquence (filtrage)| link:../projet/séquence/sequence.wsd[WSD]                                                                      |
