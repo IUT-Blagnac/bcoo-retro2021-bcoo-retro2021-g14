@@ -29,7 +29,7 @@ L'intégralité de ces documents peut être consulté ci-dessous, ou en annexe, 
 
 Figure 1 : Diagramme de classes
 
-image::https://i.ibb.co/zHKCJ8B/DC-projet-analyse.png[alt=Diagramme de classes de l'application.,width=100%,height=100%]
+image::https://i.ibb.co/zHKCJ8B/DC-projet-analyse.png[alt=Diagramme de classes de l'application.,width=75%,height=75%]
 
 Figure 2 : Diagramme de séquence (filtrage des fiches enseignants)
 
