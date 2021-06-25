@@ -41,3 +41,10 @@ Figure 4 : Maquettes écran de l'application
 
 == Liens utiles
 
+[cols="1,2,2,5",options=header]
+|===
+| Fichier                         | Lien                                                                                                           |
+| Diagramme des cas d'utilisation | link:../projet/usecase/cas-d'utilisation-analyse_conception.wsd[WSD]                                           |
+| Diagramme de séquence (filtrage)| link:../projet/séquence/sequence.wsd[WSD]                                                                      |
+| Diagramme des classes probables | link:../projet/Diagramme%20des%20classe%20probables%20de%20l’application/ApplicationClasses.plantuml[PLANTUML] |
+| Maquettes écrans                | link:../projet/Maquettes/Maquettes%20écran.png[PNG]                                                            |
