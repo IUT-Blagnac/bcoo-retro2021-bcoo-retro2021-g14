@@ -33,7 +33,7 @@ image::https://i.ibb.co/zHKCJ8B/DC-projet-analyse.png[alt=Diagramme de classes d
 
 Figure 2 : Diagramme de séquence (filtrage des fiches enseignants)
 
-image::https://i.ibb.co/5FH9tVT/DS-projet-analyse.png[alt=Diagramme de séquence pour le filtrage des fiches.,width=50%,height=50%]
+image::https://i.ibb.co/5FH9tVT/DS-projet-analyse.png[alt=Diagramme de séquence pour le filtrage des fiches.,width=25%,height=25%]
 
 Figure 3 : Diagramme des cas d'utilisations
 
