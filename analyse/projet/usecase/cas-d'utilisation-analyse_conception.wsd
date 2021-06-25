@@ -5,6 +5,8 @@ left to right direction
 :membre_secretariat:
 :responsable_année:
 :enseignant:
+:enseignant_chercheur:
+:enseignant_vacataire:
 
 
 usecase filtre as "filtrer"
@@ -36,6 +38,8 @@ filtre -|> parc
 
 
 enseignant -|> utilisateur
+enseignant_chercheur -|> enseignant
+enseignant_vacataire -|> enseignant
 responsable_année -|> enseignant
 membre_secretariat -|> responsable_année
 
